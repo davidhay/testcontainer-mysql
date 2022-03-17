@@ -23,6 +23,7 @@ jobs:
       with:
         java-version: '17'
         distribution: 'adopt-openj9'
+        cache: gradle
     - name: Run Tests with Gradle
       run: ./gradlew clean test -i
   
