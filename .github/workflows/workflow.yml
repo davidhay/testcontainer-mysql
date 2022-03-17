@@ -24,5 +24,5 @@ jobs:
         java-version: '17'
         distribution: 'adopt-openj9'
     - name: Run Tests with Gradle
-      run: ./gradlew clean test
+      run: ./gradlew clean test -i
   
